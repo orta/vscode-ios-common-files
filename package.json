@@ -1,0 +1,38 @@
+{
+    "name": "vscode-ios-common-files",
+    "displayName": "vscode-ios-common-files",
+    "description": "Provides Syntax Highlighting to common iOS files",
+    "version": "1.0.0",
+    "publisher": "Orta",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "workspaceContains:Podfile",
+        "workspaceContains:Fastfile",
+        "workspaceContains:fastlane/Fastfile"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "languages": [{
+			"id": "ruby",
+			"aliases": ["Ruby", "ruby"],
+            "filenamePatterns": [
+                "Podfile",
+                "Fastfile",
+                "Appfile",
+                "Snapfile",
+                "Deliverfile"
+            ]
+        }]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "vscode": "^0.11.0"
+    }
+}
