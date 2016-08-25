@@ -3,7 +3,9 @@
 This Extension adds Ruby syntax highlighting for:
 
 * CocoaPods's Podfile
-* Fastline's Fastfile, and a few others.
+* Fastlane's Fastfile, and a few others.
+
+![preview.png](preview.png
 
 ## Features
 
