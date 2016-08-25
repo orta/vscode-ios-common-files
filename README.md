@@ -2,8 +2,8 @@
 
 This Extension adds Ruby syntax highlighting for:
 
-* CocoaPods's Podfile
-* Fastlane's Fastfile, and a few others.
+* [CocoaPods's](https://cocoapods.org) Podfile
+* [fastlane's](https://fastlane.tools) Fastfile, and a few others.
 
 ![https://github.com/orta/vscode-ios-common-files/raw/master/preview.png](https://github.com/orta/vscode-ios-common-files/raw/master/preview.png)
 
