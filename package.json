@@ -26,7 +26,8 @@
                 "Fastfile",
                 "Appfile",
                 "Snapfile",
-                "Deliverfile"
+                "Deliverfile",
+                "*.podspec"
             ]
         }]
     },
