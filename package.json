@@ -12,6 +12,7 @@
     ],
     "activationEvents": [
         "workspaceContains:Podfile",
+        "workspaceContains:*.podspec",
         "workspaceContains:Fastfile",
         "workspaceContains:fastlane/Fastfile"
     ],
@@ -26,7 +27,8 @@
                 "Fastfile",
                 "Appfile",
                 "Snapfile",
-                "Deliverfile"
+                "Deliverfile",
+                "*.podspec"
             ]
         }]
     },
