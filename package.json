@@ -23,11 +23,14 @@
 			"id": "ruby",
 			"aliases": ["Ruby", "ruby"],
             "filenamePatterns": [
-                "Podfile",
-                "Fastfile",
                 "Appfile",
-                "Snapfile",
                 "Deliverfile",
+                "Fastfile",
+                "Gymfile",
+                "Matchfile",
+                "Scanfile",
+                "Snapfile",
+                "Podfile",
                 "*.podspec"
             ]
         }]
