@@ -14,7 +14,9 @@
         "workspaceContains:Podfile",
         "workspaceContains:*.podspec",
         "workspaceContains:Fastfile",
-        "workspaceContains:fastlane/Fastfile"
+        "workspaceContains:fastlane/Fastfile",
+        "workspaceContains:Fastfile*",
+        "workspaceContains:*Fastfile"
     ],
     "main": "./extension",
     "icon": "icon.png",
@@ -31,7 +33,9 @@
                 "Scanfile",
                 "Snapfile",
                 "Podfile",
-                "*.podspec"
+                "*.podspec",
+                "Fastfile*",
+                "*Fastfile"
             ]
         }]
     },
